@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		312E0E581E82D45000B7CB33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E0E571E82D45000B7CB33 /* AppDelegate.swift */; };
-		312E0E5A1E82D45000B7CB33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E0E591E82D45000B7CB33 /* ViewController.swift */; };
 		312E0E5D1E82D45000B7CB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312E0E5B1E82D45000B7CB33 /* Main.storyboard */; };
 		312E0E601E82D45000B7CB33 /* LoadingViewControllersViaPVC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 312E0E5E1E82D45000B7CB33 /* LoadingViewControllersViaPVC.xcdatamodeld */; };
 		312E0E621E82D45000B7CB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312E0E611E82D45000B7CB33 /* Assets.xcassets */; };
 		312E0E651E82D45000B7CB33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312E0E631E82D45000B7CB33 /* LaunchScreen.storyboard */; };
+		312E0E6F1E82D4FA00B7CB33 /* BlueContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E0E6E1E82D4FA00B7CB33 /* BlueContentVC.swift */; };
+		312E0E711E82D50700B7CB33 /* RedContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E0E701E82D50700B7CB33 /* RedContentVC.swift */; };
+		31A9B61D1E82D72F00A7B642 /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A9B61C1E82D72F00A7B642 /* PageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		312E0E541E82D45000B7CB33 /* LoadingViewControllersViaPVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingViewControllersViaPVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		312E0E571E82D45000B7CB33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		312E0E591E82D45000B7CB33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		312E0E5C1E82D45000B7CB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		312E0E5F1E82D45000B7CB33 /* LoadingViewControllersViaPVC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoadingViewControllersViaPVC.xcdatamodel; sourceTree = "<group>"; };
 		312E0E611E82D45000B7CB33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		312E0E641E82D45000B7CB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		312E0E661E82D45000B7CB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		312E0E6E1E82D4FA00B7CB33 /* BlueContentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueContentVC.swift; sourceTree = "<group>"; };
+		312E0E701E82D50700B7CB33 /* RedContentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedContentVC.swift; sourceTree = "<group>"; };
+		31A9B61C1E82D72F00A7B642 /* PageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				312E0E571E82D45000B7CB33 /* AppDelegate.swift */,
-				312E0E591E82D45000B7CB33 /* ViewController.swift */,
 				312E0E5B1E82D45000B7CB33 /* Main.storyboard */,
+				31A9B61C1E82D72F00A7B642 /* PageVC.swift */,
+				312E0E6E1E82D4FA00B7CB33 /* BlueContentVC.swift */,
+				312E0E701E82D50700B7CB33 /* RedContentVC.swift */,
 				312E0E611E82D45000B7CB33 /* Assets.xcassets */,
 				312E0E631E82D45000B7CB33 /* LaunchScreen.storyboard */,
 				312E0E661E82D45000B7CB33 /* Info.plist */,
@@ -99,6 +105,7 @@
 				TargetAttributes = {
 					312E0E531E82D45000B7CB33 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C442RRVFBB;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				312E0E5A1E82D45000B7CB33 /* ViewController.swift in Sources */,
 				312E0E601E82D45000B7CB33 /* LoadingViewControllersViaPVC.xcdatamodeld in Sources */,
+				31A9B61D1E82D72F00A7B642 /* PageVC.swift in Sources */,
+				312E0E711E82D50700B7CB33 /* RedContentVC.swift in Sources */,
+				312E0E6F1E82D4FA00B7CB33 /* BlueContentVC.swift in Sources */,
 				312E0E581E82D45000B7CB33 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C442RRVFBB;
 				INFOPLIST_FILE = LoadingViewControllersViaPVC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jeppro.LoadingViewControllersViaPVC;
@@ -276,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C442RRVFBB;
 				INFOPLIST_FILE = LoadingViewControllersViaPVC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jeppro.LoadingViewControllersViaPVC;
@@ -303,6 +314,7 @@
 				312E0E6B1E82D45000B7CB33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
